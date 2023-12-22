@@ -36,14 +36,14 @@
         <form method="POST" onsubmit="return check_search()" id="search_form">
           <input type="text" name="q" id="search_input">
           <button type="submit" class="searchSubmitBtn">
-            <img width="20" src="./icons/search.svg" alt="Search">
+            <img width="20" src="./svg/search.svg" alt="Search">
           </button>
         </form>
         <button id="openSearch">
-          <img width="20" src="./icons/search.svg" alt="">
+          <img width="20" src="./svg/search.svg" alt="">
         </button>
         <button id="openSideBar">
-          <img width="20" src="./icons/menu.svg" alt="">
+          <img width="20" src="./svg/menu.svg" alt="">
         </button>
       </div>
     </div>
@@ -61,7 +61,7 @@
             </p>
             <a href="#" class="watchBtn">
               Watch Now
-              <img height="30" src="./icons/watch.svg" alt="">
+              <img height="30" src="./svg/watch.svg" alt="">
             </a>
             <div class="movieGenre-container">
               <a href="#">Animation</a>
@@ -99,25 +99,25 @@
               <span class="actorName">Charles Martinet</span>
             </div>
             <button id="nextActorBtn">
-              <img width="40" style="opacity: .8;" src="./icons/next.svg" alt="">
+              <img width="40" style="opacity: .8;" src="./svg/next.svg" alt="">
             </button>
           </div>
         </div>
         <div id="hero__right">
           <button class="movie" data-movieId="33EF5#&">
-            <img src="./movies images/super_mario/small_pic.jpg" alt="">
+            <img src="./movies images/super_mario/small_pic.jpg" loading="lazy" alt="">
             <div class="front">
               <h3>The Super Mario Bros</h3>
             </div>
           </button>
           <button class="movie" data-movieId="Dos42x">
-            <img src="./movies images/trailer1.jpg" alt="">
+            <img src="./movies images/trailer1.jpg" loading="lazy" alt="">
             <div class="front">
               <h3>Interpeller</h3>
             </div>
           </button>
           <button class="movie" data-movieId="Klmn@b">
-            <img src="./movies images/the queens gambit/small_img.jpg" alt="">
+            <img src="./movies images/the queens gambit/small_img.jpg" loading="lazy" alt="">
             <div class="front">
               <h3>The Queen's gambit</h3>
             </div>
